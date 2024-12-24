@@ -20,7 +20,7 @@ In this demo project, we simulate a year’s worth of daily marketing spend acro
 2. **Display Ads**  
 3. **YouTube Ads**
 
-We also generate a daily “outcome” metric (e.g., sign-ups or views). Then we:
+We also generate a daily “outcome” metric. Then we:
 
 - Explore the data and measure how each channel contributes to the outcome.  
 - Build a **multiple linear regression** model to estimate each channel’s incremental impact.  
@@ -37,7 +37,7 @@ Companies like Google and YouTube rely on data scientists to understand how mark
    - Creates a realistic dataset with daily marketing spend, seasonal patterns, and random noise.
 
 2. **Data Exploration**  
-   - Statistical summaries (mean, std, etc.)  
+   - Statistical summaries  
    - Correlation heatmaps
 
 3. **Modeling & Impact Analysis**  
@@ -82,7 +82,7 @@ marketing-mix-yt/
    - Injects seasonality and random noise into the outcome metric.
 
 2. **Exploratory Analysis**  
-   - Produces summary statistics (mean, standard deviation, etc.).  
+   - Produces summary statistics.  
    - Generates correlation matrices and heatmaps to visualize relationships.
 
 3. **Modeling**  
