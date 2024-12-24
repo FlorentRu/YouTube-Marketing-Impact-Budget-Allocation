@@ -55,7 +55,15 @@ Companies like Google and YouTube rely on data scientists to understand how mark
 
 ## Project Structure
 
-marketing-mix-yt/ ├── marketing_mix_model.py # Main Python script with all steps ├── requirements.txt # List of Python dependencies ├── README.md # This README file └── ... (potential notebooks or data folders)
+marketing-mix-yt/ 
+
+├── marketing_mix_model.py # Main Python script with all steps 
+
+├── requirements.txt # List of Python dependencies 
+
+├── README.md # This README file 
+
+└── ... (potential notebooks or data folders)
 
 - **marketing_mix_model.py**  
   Contains the full workflow: data generation, EDA, modeling, optimization, and plotting.
@@ -95,7 +103,7 @@ marketing-mix-yt/ ├── marketing_mix_model.py # Main Python script with all
 
 ---
 
-## Next Steps
+## Next Steps?
 
 - **Non-Linear Modeling**  
   Incorporate non-linear or diminishing returns (log-spend, polynomial features) to better capture real-world spending behavior.
