@@ -6,12 +6,10 @@ This repository demonstrates an **end-to-end** workflow for marketing analytics 
 
 1. [Project Overview](#project-overview)  
 2. [Key Features](#key-features)  
-3. [Setup & Installation](#setup--installation)  
-4. [How to Run](#how-to-run)  
-5. [Project Structure](#project-structure)  
-6. [Detailed Workflow](#detailed-workflow)  
-7. [Next Steps](#next-steps)  
-8. [License](#license)
+3. [Project Structure](#project-structure)  
+4. [Detailed Workflow](#detailed-workflow)  
+5. [Next Steps?](#next-steps)  
+
 
 ---
 
@@ -55,9 +53,60 @@ Companies like Google and YouTube rely on data scientists to understand how mark
 
 ---
 
-## Setup & Installation
+## Project Structure
 
-1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/your_username/marketing-mix-yt.git
-   cd marketing-mix-yt
+marketing-mix-yt/ ├── marketing_mix_model.py # Main Python script with all steps ├── requirements.txt # List of Python dependencies ├── README.md # This README file └── ... (potential notebooks or data folders)
+
+- **marketing_mix_model.py**  
+  Contains the full workflow: data generation, EDA, modeling, optimization, and plotting.
+  
+- **requirements.txt**  
+  Lists all necessary Python libraries if provided.
+
+- **README.md**  
+  This document explaining how to use and navigate the project.
+
+---
+## Detailed Workflow
+
+1. **Data Generation**  
+   - Creates a daily dataset (365 days) of random marketing spend for each channel.  
+   - Injects seasonality and random noise into the outcome metric.
+
+2. **Exploratory Analysis**  
+   - Produces summary statistics (mean, standard deviation, etc.).  
+   - Generates correlation matrices and heatmaps to visualize relationships.
+
+3. **Modeling**  
+   - Splits data into training (80%) and testing (20%).  
+   - Trains a multiple linear regression model to identify channel coefficients.  
+   - Evaluates performance using RMSE (Root Mean Squared Error) and R² (coefficient of determination).
+
+4. **Incremental Impact**  
+   - Interprets regression coefficients as incremental outcomes per $1 of channel spend.
+
+5. **Optimization**  
+   - Uses [SciPy’s `minimize`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html) to maximize predicted outcomes under a fixed budget.  
+   - Returns the optimal spend distribution for each channel.
+
+6. **Visualization**  
+   - Plots actual vs. predicted values to compare model performance.  
+   - Shows residual distributions to detect any potential model biases.
+
+---
+
+## Next Steps
+
+- **Non-Linear Modeling**  
+  Incorporate non-linear or diminishing returns (log-spend, polynomial features) to better capture real-world spending behavior.
+
+- **Time-Series Effects**  
+  Introduce time-series techniques (e.g., Prophet, ARIMAX) to account for trends and seasonality more precisely.
+
+- **Dashboard Integration**  
+  Build interactive dashboards using libraries such as [Streamlit](https://streamlit.io/) or [Dash](https://dash.plotly.com/).
+
+- **Real-World Data**  
+  Replace the synthetic dataset with actual marketing datasets, ensuring data privacy and compliance.
+
+---
