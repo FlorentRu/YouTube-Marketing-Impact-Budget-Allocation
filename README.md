@@ -65,7 +65,7 @@ marketing-mix-yt/
 
 └── ... (potential notebooks or data folders)
 
-- **marketing_mix_model.py**  
+- **YouTube Marketing Impact Budget Allocation.ipynb**  
   Contains the full workflow: data generation, EDA, modeling, optimization, and plotting.
   
 - **requirements.txt**  
