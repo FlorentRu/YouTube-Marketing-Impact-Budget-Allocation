@@ -1,4 +1,4 @@
-# YouTube-Marketing-Impact-Budget-Allocation
+# YouTube Marketing Impact Budget Allocation
 
 This repository demonstrates an **end-to-end** workflow for marketing analytics with an emphasis on **YouTube Marketing**. It includes synthetic data generation, data exploration, incremental impact measurement, and marketing budget optimization using Python.
 
