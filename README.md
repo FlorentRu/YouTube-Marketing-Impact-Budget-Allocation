@@ -104,7 +104,7 @@ marketing-mix-yt/
   Incorporate non-linear or diminishing returns (log-spend, polynomial features) to better capture real-world spending behavior.
 
 - **Time-Series Effects**  
-  Introduce time-series techniques (e.g., Prophet, ARIMAX) to account for trends and seasonality more precisely.
+  Introduce time-series techniques such as Prophet, ARIMAX to account for trends and seasonality more precisely.
 
 - **Dashboard Integration**  
   Build interactive dashboards using libraries such as [Streamlit](https://streamlit.io/) or [Dash](https://dash.plotly.com/).
