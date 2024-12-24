@@ -61,7 +61,7 @@ marketing-mix-yt/
 
 ├── README.md # This README file 
 
-└── ... (I created a ipynb to thouroughly explain every steps along the process)
+└── ... (I created a ipynb file to thouroughly explain every steps along the process)
 
 - **YouTube Marketing Impact Budget Allocation.ipynb**  
   Contains the full workflow: data generation, EDA, modeling, optimization, and plotting.
