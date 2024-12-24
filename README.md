@@ -57,11 +57,11 @@ Companies like Google and YouTube rely on data scientists to understand how mark
 
 marketing-mix-yt/ 
 
-├── marketing_mix_model.py # Main Python script with all steps 
+├── YouTube Marketing Impact Budget Allocation.ipynb # Main Python script with all steps 
 
 ├── README.md # This README file 
 
-└── ... (data folders)
+└── ... (I created a ipynb to thouroughly explain every steps along the process)
 
 - **YouTube Marketing Impact Budget Allocation.ipynb**  
   Contains the full workflow: data generation, EDA, modeling, optimization, and plotting.
