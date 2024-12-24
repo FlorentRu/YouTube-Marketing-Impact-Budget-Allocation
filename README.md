@@ -59,17 +59,12 @@ marketing-mix-yt/
 
 ├── marketing_mix_model.py # Main Python script with all steps 
 
-├── requirements.txt # List of Python dependencies 
-
 ├── README.md # This README file 
 
-└── ... (potential notebooks or data folders)
+└── ... (data folders)
 
 - **YouTube Marketing Impact Budget Allocation.ipynb**  
   Contains the full workflow: data generation, EDA, modeling, optimization, and plotting.
-  
-- **requirements.txt**  
-  Lists all necessary Python libraries if provided.
 
 - **README.md**  
   This document explaining how to use and navigate the project.
