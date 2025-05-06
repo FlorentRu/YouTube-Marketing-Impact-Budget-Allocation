@@ -2,7 +2,7 @@
 
 This repository demonstrates an **end-to-end** workflow for marketing analytics with an emphasis on **YouTube Marketing**. It includes synthetic data generation, data exploration, incremental impact measurement, and marketing budget optimization using Python.
 
-## Table of Contents
+## Table of Contents:
 
 1. [Project Overview](#project-overview)  
 2. [Key Features](#key-features)  
